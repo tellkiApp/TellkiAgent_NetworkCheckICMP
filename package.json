@@ -1,0 +1,18 @@
+{
+	"author": "guberni",
+	"name": "tellki-network-check-icmp-monitor",
+	"description": "Tellki Network Check ICMP Monitor",
+	"version": "0.0.1",
+	"keywords": ["tellki","monitor","network","icmp","real time"],
+	"homepage": "www.tellki.com",
+	"repository" : { 
+		"type" : "git", "url" : "https://github.com/tellkiApp/tellkiAgent_NetworkCheckICMP.git"  
+	},
+	"main": "./lib/network_check_icmp_monitor",
+	"bin": {
+		"tellki-network-check-icmp-monitor": "./bin/tellki-network-check-icmp-monitor"
+	},
+	"engines": {
+		"node": "*"
+	}
+}
